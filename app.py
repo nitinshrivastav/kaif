@@ -9,4 +9,8 @@ def sum(a,b):
 def minus(x,y):
     return(x-y)
 def result():
-    pass
+    x,y,ch=input()
+    if(ch==1):
+        sum(x,y)
+    else:
+        minus(x,y)
